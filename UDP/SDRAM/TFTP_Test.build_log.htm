@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: wsl WSL, wsl, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARM.DLL V5.23
+Dialog DLL:      DARMSS9.DLL V1.9.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMSS9.DLL V1.8.0.0
+ 
+<h2>Project:</h2>
+D:\学习\嵌入式系统\DISK3_S3C2410-V1\03-Codes\01-MDK\Mini2410-IV\7.2_TFTP_Test\TFTP_Test.uvproj
+Project File Date:  05/18/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'TFTP_Test IN RAM'
+compiling tftpmain.c...
+Source\tftp\tftpmain.c(72): warning:  #1134-D: literal treated as "long long"
+  		udp_send(skb, 3232235627, UDP, 5678);
+Source\tftp\tftpmain.c(107): warning:  #111-D: statement is unreachable
+  	return 0;
+Source\tftp\tftpmain.c(54): warning:  #177-D: variable "i"  was declared but never referenced
+  	int i;
+Source\tftp\tftpmain.c(55): warning:  #177-D: variable "p"  was declared but never referenced
+  	char *p;
+Source\tftp\tftpmain.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=22900 RO-data=764 RW-data=100 ZI-data=67332  
+".\SDRAM\TFTP_Test.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

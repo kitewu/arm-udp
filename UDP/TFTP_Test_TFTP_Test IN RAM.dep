@@ -1,0 +1,118 @@
+Dependencies for Project 'TFTP_Test', Target 'TFTP_Test IN RAM': (DO NOT MODIFY !)
+F (.\S3C2410A.s)(0x48B91330)(--cpu ARM920T -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung --pd "ENABLEMMU SETA 1" --list ".\SDRAM\S3C2410A.lst" --xref -o ".\SDRAM\S3C2410A.o" --depend ".\SDRAM\S3C2410A.d")
+F (.\Source\main.c)(0x5937F676)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\main.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\main.crf" --depend ".\SDRAM\main.d")
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+F (.\Source\tftp\arp.c)(0x48B91FA6)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\arp.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\arp.crf" --depend ".\SDRAM\arp.d")
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\arp.h)(0x3EFC87F0)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\dm9000dbg.c)(0x48B91FB2)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\dm9000dbg.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\dm9000dbg.crf" --depend ".\SDRAM\dm9000dbg.d")
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+I (.\INC\tftp\mac.h)(0x48660922)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\eth.c)(0x48B91FB2)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\eth.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\eth.crf" --depend ".\SDRAM\eth.d")
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\mac.h)(0x48660922)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\icmp.c)(0x48B91FBE)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\icmp.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\icmp.crf" --depend ".\SDRAM\icmp.d")
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\ip.h)(0x3EFEADA6)
+I (.\INC\tftp\icmp.h)(0x476A63E8)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\ip.c)(0x48B91FCE)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\ip.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\ip.crf" --depend ".\SDRAM\ip.d")
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\ip.h)(0x3EFEADA6)
+I (.\INC\tftp\arp.h)(0x3EFC87F0)
+I (.\INC\tftp\icmp.h)(0x476A63E8)
+I (.\INC\tftp\udp.h)(0x3EFC881C)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\skbuff.c)(0x59389449)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\skbuff.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\skbuff.crf" --depend ".\SDRAM\skbuff.d")
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\tftp.c)(0x48B91FE4)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\tftp.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\tftp.crf" --depend ".\SDRAM\tftp.d")
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\ip.h)(0x3EFEADA6)
+I (.\INC\tftp\udp.h)(0x3EFC881C)
+I (.\INC\tftp\tftp.h)(0x3F00F398)
+I (.\INC\tftp\tftpput.h)(0x3EFC8D52)
+I (.\INC\utils.h)(0x476A585C)
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+F (.\Source\tftp\tftpmain.c)(0x59389450)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\tftpmain.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\tftpmain.crf" --depend ".\SDRAM\tftpmain.d")
+I (.\INC\changeformat.h)(0x486B92B2)
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\arp.h)(0x3EFC87F0)
+I (.\INC\tftp\ip.h)(0x3EFEADA6)
+I (.\INC\tftp\udp.h)(0x3EFC881C)
+I (.\INC\utils.h)(0x476A585C)
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+F (.\Source\tftp\tftpput.c)(0x48B91FFC)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\tftpput.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\tftpput.crf" --depend ".\SDRAM\tftpput.d")
+I (.\INC\tftp\tftpput.h)(0x3EFC8D52)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\tftp\udp.c)(0x59380BA8)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\udp.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\udp.crf" --depend ".\SDRAM\udp.d")
+I (.\INC\tftp\skbuff.h)(0x3EFB954C)
+I (.\INC\tftp\eth.h)(0x48667786)
+I (.\INC\tftp\ip.h)(0x3EFEADA6)
+I (.\INC\tftp\udp.h)(0x3EFC881C)
+I (.\INC\tftp\tftp.h)(0x3F00F398)
+I (.\INC\utils.h)(0x476A585C)
+F (.\Source\rtc_test.c)(0x5937F5A0)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\rtc_test.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\rtc_test.crf" --depend ".\SDRAM\rtc_test.d")
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+I (.\INC\rtc_test.h)(0x5937F560)
+F (..\common\src\2410lib.c)(0x4885495C)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\2410lib.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\2410lib.crf" --depend ".\SDRAM\2410lib.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x50F9614E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\ctype.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+I (..\Common\Inc\2410slib.h)(0x484E44A4)
+F (..\common\src\sys_init.c)(0x49A22012)(-c --cpu ARM920T -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\SDRAM\\" -I..\Common\Inc -I.\INC -I.\INC\tftp -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Samsung -o ".\SDRAM\sys_init.o" --list_dir ".\\SDRAM\\" --list --omf_browse ".\SDRAM\sys_init.crf" --depend ".\SDRAM\sys_init.d")
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x50F9614E)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil\ARM\ARMCC\bin\..\include\ctype.h)(0x50F96150)
+I (..\Common\Inc\2410lib.h)(0x484E43CA)
+I (..\Common\Inc\def.h)(0x484E440E)
+I (..\Common\Inc\memcfg.h)(0x46DCA980)
+I (..\Common\Inc\option.h)(0x484E55CE)
+I (..\Common\Inc\register.h)(0x484E4488)
+I (..\Common\Inc\2410addr.h)(0x48B8AD98)
+F (.\SDRAM.ini)(0x486B9C96)()
+F (.\readme.txt)(0x48950342)()
